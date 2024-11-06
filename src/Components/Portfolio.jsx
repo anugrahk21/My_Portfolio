@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/dhilip-antony-4KqcacY-9s8-unsplash.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with laptop";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "AI Chat Bot 🤖",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "AI chat bot utilizing Gemini API and telegram as front-end. Leveraging the power of generative AI technology, I aim to create a seamless and intuitive conversational experience for users.",
+    url: "https://github.com/anugrahk21/Chat_AI",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Recipe Mate | A new way to make dishes.",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Generate personalized Indian recipes based on specific criteria.",
+    url: "https://share.imagica.ai/fot/",
   },
   {
-    title: "My Resume Site",
+    title: "Grocery Shop Management System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Python with MySQL programming project on grocery management system which includes 15-20 functions.",
+    url: "https://docs.google.com/document/d/1UeKQNlpBMaGtbTxKuU4WyrKOmrVoqDcf/edit?usp=sharing&ouid=103882276256622569103&rtpof=true&sd=true",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Responsive web design",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A responsive web design project using HTML, CSS, and JavaScript.",
+    url: "https://www.freecodecamp.org/certification/fcc9b90f77b-0959-4419-becb-460c2724bf9e/responsive-web-design",
   },
 ];
 
