@@ -33,7 +33,7 @@ const siteProps = {
   twitter: "microsoft",
   youTube: "Code",
 };
-
+siteProps.nameStyle = { color: "white" };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
 
