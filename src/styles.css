@@ -123,3 +123,55 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+.name, .title {
+  color: white;
+  font-weight: 800; /* Make the title thicker */
+}
+
+p.small {
+  font-size: 15px;
+  font-weight: 600; /* Make the description thicker */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  div#main {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  h1.name, h2.title {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .box {
+    padding: 1rem;
+  }
+}
